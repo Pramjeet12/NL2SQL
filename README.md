@@ -1,6 +1,7 @@
-# Clinic AI Assistant
+# Clinic Assistant
 
-A natural language SQL agent for clinic management data, powered by **Vanna 2.0** and **Google Gemini**. Ask questions in plain English and get SQL queries, results, and charts automatically.
+A natural language to SQL system for clinic management data, leveraging **Vanna 2.0** and **Google Gemini** to translate user queries into SQL, execute them, and return results with interactive visualizations.
+
 
 ## Architecture Overview
 
@@ -75,7 +76,7 @@ flowchart LR
 
 ## LLM Provider
 
-**Google Gemini** (Option A) — using `GeminiLlmService` from Vanna 2.0.
+**Google Gemini** — using `GeminiLlmService` from Vanna 2.0.
 
 ## Prerequisites
 
@@ -87,7 +88,7 @@ flowchart LR
 ### 1. Clone and enter the project directory
 
 ```bash
-cd assingment
+cd NL2SQL
 ```
 
 ### 2. Create and activate a virtual environment
